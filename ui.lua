@@ -77,7 +77,7 @@ LogoDouble.BackgroundTransparency = 1.000
 LogoDouble.Position = UDim2.new(0.12420439, 0, 0.094339624, 0)
 LogoDouble.Size = UDim2.new(0, 125, 0, 40)
 LogoDouble.Font = Enum.Font.Ubuntu
-LogoDouble.Text = "backdoor.exe"
+LogoDouble.Text = "neko.exe"
 LogoDouble.TextColor3 = Color3.fromRGB(255, 255, 255)
 LogoDouble.TextSize = 27.000
 
@@ -88,7 +88,7 @@ Version.BackgroundTransparency = 1.000
 Version.Position = UDim2.new(0.958916068, 0, 0.132075474, 0)
 Version.Size = UDim2.new(0, 24, 0, 21)
 Version.Font = Enum.Font.Ubuntu
-Version.Text = "v6"
+Version.Text = ""
 Version.TextColor3 = Color3.fromRGB(64, 185, 121)
 Version.TextSize = 23.000
 
@@ -98,7 +98,7 @@ Close_Button.BackgroundTransparency = 1.000
 Close_Button.Position = UDim2.new(0.956687868, 0, 0.174999997, 0)
 Close_Button.Size = UDim2.new(0, 25, 0, 25)
 Close_Button.ZIndex = 2
-Close_Button.Image = "rbxassetid://9622750496"
+Close_Button.Image = "rbxassetid://9622750517"
 Close_Button.ImageRectOffset = Vector2.new(44, 364)
 Close_Button.ImageRectSize = Vector2.new(36, 36)
 
@@ -144,7 +144,7 @@ R6Button.BackgroundTransparency = 1.000
 R6Button.Position = UDim2.new(0.903069496, 0, 0.174999997, 0)
 R6Button.Size = UDim2.new(0, 25, 0, 25)
 R6Button.ZIndex = 2
-R6Button.Image = "rbxassetid://9622750496"
+R6Button.Image = "rbxassetid://9622750517"
 R6Button.ImageRectOffset = Vector2.new(164, 124)
 R6Button.ImageRectSize = Vector2.new(36, 36)
 
@@ -224,7 +224,7 @@ clear.Parent = Clear_Button
 clear.BackgroundTransparency = 1.000
 clear.Size = UDim2.new(0, 25, 0, 25)
 clear.ZIndex = 2
-clear.Image = "rbxassetid://9622750496"
+clear.Image = "rbxassetid://9622750517"
 clear.ImageRectOffset = Vector2.new(924, 724)
 clear.ImageRectSize = Vector2.new(36, 36)
 
@@ -246,7 +246,7 @@ chevron_right.BackgroundTransparency = 1.000
 chevron_right.Position = UDim2.new(0.0188819952, 0, 0.0177777708, 0)
 chevron_right.Size = UDim2.new(0, 25, 0, 25)
 chevron_right.ZIndex = 2
-chevron_right.Image = "rbxassetid://9622750496"
+chevron_right.Image = "rbxassetid://9622750517"
 chevron_right.ImageRectOffset = Vector2.new(924, 884)
 chevron_right.ImageRectSize = Vector2.new(36, 36)
 
@@ -269,7 +269,7 @@ do_not_disturb_alt.BackgroundTransparency = 1.000
 do_not_disturb_alt.LayoutOrder = 17
 do_not_disturb_alt.Size = UDim2.new(0, 25, 0, 25)
 do_not_disturb_alt.ZIndex = 2
-do_not_disturb_alt.Image = "rbxassetid://9622750496"
+do_not_disturb_alt.Image = "rbxassetid://9622750517"
 do_not_disturb_alt.ImageRectOffset = Vector2.new(844, 524)
 do_not_disturb_alt.ImageRectSize = Vector2.new(36, 36)
 
@@ -307,7 +307,7 @@ scan_icon.LayoutOrder = 9
 scan_icon.Position = UDim2.new(0.0833333358, 0, 0, 0)
 scan_icon.Size = UDim2.new(0, 25, 0, 25)
 scan_icon.ZIndex = 2
-scan_icon.Image = "rbxassetid://9622750496"
+scan_icon.Image = "rbxassetid://9622750517"
 scan_icon.ImageRectOffset = Vector2.new(404, 764)
 scan_icon.ImageRectSize = Vector2.new(36, 36)
 
@@ -329,7 +329,7 @@ link.BackgroundTransparency = 1.000
 link.Position = UDim2.new(-0.00777777284, 0, 0, 0)
 link.Size = UDim2.new(0, 25, 0, 25)
 link.ZIndex = 2
-link.Image = "rbxassetid://9622750496"
+link.Image = "rbxassetid://9622750517"
 link.ImageRectOffset = Vector2.new(164, 404)
 link.ImageRectSize = Vector2.new(36, 36)
 
