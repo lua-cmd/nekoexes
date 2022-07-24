@@ -93,8 +93,8 @@ local function changeUiState()
 		["false"] = Color3.fromRGB(185, 48, 48)
 	}
 	local attachTexts = {
-		["true"] = "Attached",
-		["false"] = "Unattached"
+		["true"] = "exploit attached",
+		["false"] = "attach exploit idiot"
 	}
 
 	BackdoorUI.attached = not BackdoorUI.attached
@@ -102,7 +102,7 @@ local function changeUiState()
 	statusText.Text = attachTexts[tostring(BackdoorUI.attached)]
 
 	if BackdoorUI.attached then
-		notify("Backdoor Found")
+		notify("YEAH MANZ U GOT IT XDDDD")
 	end
 end
 local function stringToInstance(str)
@@ -122,7 +122,7 @@ local function check()
 		
 		-- Anti-Censoring
 		BackdoorUI.backdoorRemote:FireServer("local chatservice = require(game.ServerScriptService.ChatServiceRunner.ChatService);chatservice.InternalApplyRobloxFilterNewAPI=function(self,sp,mes,textfilcon) return true,false,mes end;chatservice.InternalApplyRobloxFilter=function(self,sp,mes,toname) return mes end")
-		notify("Anti-Censoring is ACTIVE")
+		notify("CHAT BYPASSER WORKIN")
 		
 		workspace:FindFirstChild(randID):Destroy()
 		return true
@@ -149,7 +149,7 @@ local function scan()
 	if BackdoorUI.attached then changeUiState() end
 
 	BackdoorUI.scanning = true
-	statusText.Text = "Scanning"
+	statusText.Text = "SCANNING.."
 
 	for _, testRemote in pairs(game:GetDescendants()) do
 		if testRemote.ClassName == "RemoteEvent" and BackdoorUI.attached == false then
@@ -170,7 +170,7 @@ local function scan()
 	end
 
 	 -- Wait for possible server lag
-	statusText.Text = "Rechecking"
+	statusText.Text = "RECHECKINGGHZ XDDD"
 	wait(1.5)
 	if check() then
 		changeUiState()
@@ -178,8 +178,8 @@ local function scan()
 	end
 	
 	BackdoorUI.scanning = false
-	notify("Failed to find a backdoor")
-	statusText.Text = "Failed"
+	notify("LOL IT LITERALLY WONT WORK HERE")
+	statusText.Text = "NIGGA FIX THE SCRIPT"
 end
 
 local function executeScript(scrpt)
@@ -198,7 +198,7 @@ local function executeScript(scrpt)
 	
 		local bf = Instance.new("BindableFunction"); bf.OnInvoke = callback
 
-		notify("You're not attached.\nWould you like to attach now?", bf, "Yes", "No")
+		notify("UR NOT ATTACHED MANZ.\nATTACH IT NOW1!", bf, "JA", "NOE")
 	else
 		BackdoorUI.backdoorRemote:FireServer(scrpt)
 	end
